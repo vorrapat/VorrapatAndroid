@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carbg">
+
+
+    <android.widget.Button
+        android:id="@+id/addcarbtn"
+        android:layout_width="260dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="164dp"
+        android:background="@drawable/edittext"
+        android:text="เพิ่มรถ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <android.widget.Button
+        android:id="@+id/viewcarbtn"
+        android:layout_width="260dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/edittext"
+        android:text="ตรวจสอบรถ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcarbtn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="74dp"
+        android:fontFamily="@font/aldrich"
+        android:shadowColor="#BC000000"
+        android:shadowDy="8"
+        android:shadowRadius="4"
+        android:text="CarManager"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

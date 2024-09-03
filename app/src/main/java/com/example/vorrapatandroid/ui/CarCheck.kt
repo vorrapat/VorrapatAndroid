@@ -95,7 +95,7 @@ class CarCheck : AppCompatActivity() {
                         // Load image using Picasso
                         val imagePart = jsonObject.optString("image_url")
                         Picasso.get()
-                            .load("http://10.0.2.2:3000/uploads/${imagePart}")
+                            .load("http://10.0.2.2:3000${imagePart}")
                             .placeholder(R.drawable.placeholder_image) // Placeholder image while loading
                             .error(R.drawable.error_image) // Image to show if there's an error
                             .into(imageView, object : com.squareup.picasso.Callback {
